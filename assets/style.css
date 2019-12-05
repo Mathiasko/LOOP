@@ -59,8 +59,6 @@ a, a:link, a:visited, a:hover, a:active{
 
 /* HEADER */
 header{
-	/*height: 50vh;*/
-	height: 65vh;
 	background-image: url(images/LOOP-pictures/headerbckgr.png);
 	background-position: center center;
 	background-size: cover;
@@ -71,22 +69,18 @@ header{
 
 nav{
 	background-color: white;
-	padding: 0 7%;
 	position: relative;
-	top: 90.5%;
 	/*position: fixed;*/
 }
 
 nav a{
 	display: inline-block;
-	padding: 2% 4%;
 	border-radius: 5px;
 }
 
 nav a:hover{
 	transition: all .1s ease-in-out;
 	background-color: rgba(	150, 193, 31, .7);
-	/*opacity: .7;*/
 }
 
 .logo{
@@ -94,16 +88,12 @@ nav a:hover{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	width: 11%;
-    height: 22vh;
 	position: absolute;
 	border-radius: 50%;
-	transform: translateY(-50%);
 }
 
 nav div{
 	position: relative;
-	left: 25%;
 }
 
 /* MAIN */
@@ -115,13 +105,11 @@ main{
 
 section{
 	width: 100%;
-	height: 65vh;
 	background-color: white;
 	margin-bottom: 5vh;
 }
 
 section article{
-	width: 60%;
 	position: relative;
 }
 
@@ -138,16 +126,10 @@ section article h2{
 /* SECTION 2 */
 
 
-
 /* SECTION 3 */
-.section3{
-	height: 100vh;
-}
 
 .bigbanner{
 	color: white;
-	width: 100%;
-	height: 50vh;
 	background-image: url(images/LOOP-pictures/beefit.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -184,19 +166,100 @@ footer{
 	clear: both;
 	display: flex;
 	flex-direction: row;
-	padding: 3.5% 7%;
-	height: 50vh;
 	background-color: #8C8B89;
+}
+
+footer article{
+	text-align: center;
+}
+
+/* DESKTOP */
+
+@media (max-width:460px){
+
+}
+
+@media (min-width:461px) and (max-width:1023px){
+
+}
+
+@media screen and (min-width:1024px){
+
+/* HEADER */
+
+header{
+	height: 65vh;
+}
+
+nav{
+	padding: .5% 7%;
+	top: 88.5%;
+}
+
+nav a{
+	padding: 1% 4%;
+}
+
+.logo{
+	width: 11%;
+    height: 22vh;
+	transform: translateY(-50%);
+}
+
+nav div{
+	left: 25%;
+	width: calc(100% - 25%);
+}
+
+
+/* MAIN */
+
+main{
+	width: 86%;
+	margin: 0 auto;
+	margin-top: 7%;
+}
+
+main section{
+	height: 65vh;
+}
+
+section article{
+	width: 60%;
+}
+
+/* SECTION 1 */
+
+/* SECTION 2 */
+
+/* SECTION 3 */
+.section3{
+	height: 100vh;
+}
+
+.bigbanner{
+	width: 100%;
+	height: 50vh;
+}
+/* SECTION 4 */
+
+/* SECTION 5 */
+
+/* SECTION 6 */
+
+/* FOOTER */
+footer{
+	padding: 3.5% 7%;
+	height: 35vh;
 	margin-top: 7%;
 }
 
 footer article{
 	width: 20%;
 	margin:0 auto;
-	text-align: center;
 }
 
-
+}
 
 
 
