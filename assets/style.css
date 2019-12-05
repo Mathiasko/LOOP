@@ -72,8 +72,21 @@ header{
 nav{
 	background-color: white;
 	padding: 0 7%;
-	width: calc(100vw - 25%);
+	position: relative;
+	top: 90.5%;
 	/*position: fixed;*/
+}
+
+nav a{
+	display: inline-block;
+	padding: 2% 4%;
+	border-radius: 5px;
+}
+
+nav a:hover{
+	transition: all .1s ease-in-out;
+	background-color: rgba(	150, 193, 31, .7);
+	/*opacity: .7;*/
 }
 
 .logo{
@@ -85,10 +98,11 @@ nav{
     height: 22vh;
 	position: absolute;
 	border-radius: 50%;
+	transform: translateY(-50%);
 }
 
 nav div{
-	position: absolute;
+	position: relative;
 	left: 25%;
 }
 
