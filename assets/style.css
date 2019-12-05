@@ -110,6 +110,10 @@ section{
 	margin-bottom: 5vh;
 }
 
+/*section img{
+	width: 100%;
+}*/
+
 section article{
 	position: relative;
 }
@@ -155,6 +159,12 @@ section article h2{
 
 
 /* SECTION 5 */
+.section5{
+	background-image: url(LOOP/assets/images/LOOP-pictures/gift.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
 
 
@@ -174,16 +184,17 @@ footer article{
 	text-align: center;
 }
 
-/* DESKTOP */
-
+/*Mobile*/
 @media (max-width:460px){
 
 }
 
+/*Tablet*/
 @media (min-width:461px) and (max-width:1023px){
 
 }
 
+/*Desktop*/
 @media screen and (min-width:1024px){
 
 /* HEADER */
@@ -231,9 +242,14 @@ section article{
 }
 
 /* SECTION 1 */
+.section1 img{
+	height: 65vh;
 
+}
 /* SECTION 2 */
-
+.section2 img{
+	height: 65vh;
+}
 /* SECTION 3 */
 .section3{
 	height: 100vh;
@@ -246,7 +262,7 @@ section article{
 /* SECTION 4 */
 
 /* SECTION 5 */
-
+	
 /* SECTION 6 */
 
 /* FOOTER */
