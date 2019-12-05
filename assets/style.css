@@ -26,12 +26,21 @@ p{
 	line-height: 1.6;
 }
 
+a{
+	font-size: 1.1vw;
+}
+
 h3 + p{
 	margin-top: 2%;
 }
 
 h3 + p + h3{
 	margin-top: 6%;
+}
+
+p + a{
+	display: inline-block;
+    margin-top: 9%;
 }
 
 ul {
@@ -110,15 +119,11 @@ section{
 	margin-bottom: 5vh;
 }
 
-/*section img{
-	width: 100%;
-}*/
-
 section article{
 	position: relative;
 }
 
-section article h2{
+.centeredh2{
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -160,13 +165,28 @@ section article h2{
 
 /* SECTION 5 */
 .section5{
-	background-image: url(LOOP/assets/images/LOOP-pictures/gift.png);
+	background-image: url(images/LOOP-pictures/gift.png);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
 }
 
+.section5 *:not(article){
+	margin-bottom: 2%;
+}
 
+.section5 a{
+	color: white;
+	background-color: rgba(	150, 193, 31);
+	border-radius: 5px;
+	padding: 2.5% 5%;
+}
+
+.section5 a:hover{
+	background-color: rgba(	150, 193, 31, .7); 
+}
 
 /* SECTION 6 */
 
@@ -244,11 +264,13 @@ section article{
 /* SECTION 1 */
 .section1 img{
 	height: 65vh;
+	width: 45vw;
 
 }
 /* SECTION 2 */
 .section2 img{
 	height: 65vh;
+	width: 45vw;
 }
 /* SECTION 3 */
 .section3{
