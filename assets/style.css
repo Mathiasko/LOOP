@@ -206,8 +206,9 @@ footer article{
 	width: 80px;
 }
 
-
-
+@media(min-width: 641px) and (max-width: 999px){
+	
+}
 
 
 
