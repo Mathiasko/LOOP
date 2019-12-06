@@ -197,7 +197,23 @@ footer article{
 }
 
 @media (min-width:461px) and (max-width:1023px){
-
+	.logo{
+		background-image: url(images/LOOP-pictures/LOOP_animation.gif);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 20vw;
+		height: 20vw;
+	
+		position: absolute;
+		border-radius: 50%;
+		transform: translateY(-50%);
+	
+		animation-name: loop_logo;
+		animation-duration: 5s;
+		animation-iteration-count: 1;
+		animation-fill-mode: both;
+	}
 }
 
 @media screen and (min-width:1024px){
