@@ -88,11 +88,6 @@ nav a{
 	border-radius: 5px;
 }
 
-nav a:hover{
-	transition: all .1s ease-in-out;
-	background-color: rgba(	150, 193, 31, .7);
-}
-
 .logo{
 	background-image: url(images/LOOP-pictures/logo.png);
 	background-position: center;
@@ -481,6 +476,11 @@ nav{
 
 nav a{
 	padding: 1% 2%;
+}
+
+nav a:hover{
+	transition: all .1s ease-in-out;
+	background-color: rgba(	150, 193, 31, .7);
 }
 
 .logo{
