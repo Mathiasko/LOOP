@@ -231,6 +231,7 @@ footer article{
 	header{
 		height: 30vh;
 	}
+	main{width: 100%;}
 	.logo{
 		width: 20vw;
 		height: 20vw;
@@ -278,9 +279,36 @@ footer article{
 	.left{
 		margin-left: 15vw;
 	}
+	
+	/*Section 1*/
 
 	.flex p{
 		font-size: 15px;
+	}
+
+	.padding{
+		width: 50vw;
+	}
+
+	.green img{
+		width: 50vw;
+	}
+
+	/*Section 2*/
+
+	.family img{
+		width: 55vw;
+	}
+
+	.bigbanner{
+		height: 40vh;
+	}
+	.centeredh2{
+		font-size: 40px;
+	}
+
+	.c3{
+		width: 100%;
 	}
 
 }
