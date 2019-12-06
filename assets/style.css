@@ -60,7 +60,7 @@ a, a:link, a:visited, a:hover, a:active{
 /* HEADER */
 header{
 	/*height: 50vh;*/
-	height: 65vh;
+	height: 40vw;
 	background-image: url(images/LOOP-pictures/headerbckgr.png);
 	background-position: center center;
 	background-size: cover;
@@ -90,15 +90,28 @@ nav a:hover{
 }
 
 .logo{
-	background-image: url(images/LOOP-pictures/logo.png);
+	background-image: url(images/LOOP-pictures/LOOP_animation.gif);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	width: 11%;
-    height: 22vh;
+	width: 20vw;
+	height: 20vw;
+
 	position: absolute;
 	border-radius: 50%;
 	transform: translateY(-50%);
+
+	animation-name: loop_logo;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+}
+
+@keyframes loop_logo{
+	0% 		{opacity: 0%;}
+	15% 	{opacity: 0%;}
+	30% 	{opacity: 100%;}
+
 }
 
 nav div{
