@@ -28,15 +28,11 @@ p {
 	line-height: 1.6;
 }
 
-<<<<<<< HEAD
 a{
 	font-size: 1.1vw;
 }
 
 h3 + p{
-=======
-h3+p {
->>>>>>> Mobile1
 	margin-top: 2%;
 }
 
@@ -133,11 +129,8 @@ section article {
 	position: relative;
 }
 
-<<<<<<< HEAD
+
 .centeredh2{
-=======
-section article h2 {
->>>>>>> Mobile1
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -221,10 +214,6 @@ article h3+h5 {
 	margin-top: 3%;
 }
 
-<<<<<<< HEAD
-/*Mobile*/
-@media (max-width:460px){
-=======
 /* style for mobile devices (portrait) and upwards */
 @media (max-width:460px) {
 
@@ -233,31 +222,23 @@ article h3+h5 {
 	main, section, article,
 	footer {
 		width: 100%;
->>>>>>> Mobile1
-
 	}
 
-<<<<<<< HEAD
-/*Tablet*/
-@media (min-width:461px) and (max-width:1023px){
-=======
+	h2 {
+		font-size: 7.5vw;
+	}
+
 	p {
 		font-size: 4.7vw;
 	}
->>>>>>> Mobile1
 
 	h3 {
 		font-size: 6.5vw;
 	}
 
-<<<<<<< HEAD
+
 /*Desktop*/
 @media screen and (min-width:1024px){
-=======
-	h2 {
-		font-size: 7.5vw;
-	}
->>>>>>> Mobile1
 
 	header {
 		height: 35vh;
