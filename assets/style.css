@@ -215,7 +215,7 @@ footer article{
 
 	}
 
-	p {
+	p, a {
 		font-size: 4.7vw;
 	}
 
@@ -228,7 +228,7 @@ footer article{
 	}
 
 	header {
-		height: 25vh;
+		height: 35vh;
 	}
 
 
@@ -258,7 +258,7 @@ nav a {
 }
 
 nav div {
-	left: 25%;
+	
 	width: calc(100% - 25%);
 	display: none;
 }
@@ -277,7 +277,7 @@ section {
 	width: 100vw;
 }
 section img {
-	height: 50vh;
+	height: auto;
 	width: 100vw;
 }
 section article {
@@ -287,18 +287,16 @@ section article {
 /* SECTION 1 */
 
 .section1 {
-	height: 100vh;
+	height: 92vh;
 }
 
 .section1 article {
-	height: 50vh;
+	height: 47vh;
 }
-.green {
-	height: 35vh;
-}
+
 /* SECTION 2 */
 .section2 {
-	height: 100vh;
+	height: 80vh;
 }
 
 .section2 article {
@@ -332,11 +330,11 @@ section article {
 /* SECTION 4 */
 
 .section4 {
-	height: 120vh;
+	height: 105vh;
 }
 
 .green{
-	height: 50vh;
+	height: 36vh;
 }
 .padding {
 	height: 70vh;
@@ -345,6 +343,8 @@ section article {
 /* SECTION 5 */
 .section5 {
 	height: 60vh;
+	padding-left: 0;
+	padding-top: 70px;
 }
 
 /* SECTION 6 */
