@@ -74,10 +74,6 @@ nav{
 	/*position: fixed;*/
 }
 
-nav a{
-	display: inline-block;
-	border-radius: 5px;
-}
 
 nav a:hover{
 	transition: all .1s ease-in-out;
@@ -197,23 +193,61 @@ footer article{
 }
 
 @media (min-width:461px) and (max-width:1023px){
+	header{
+		height: 30vh;
+	}
 	.logo{
-		background-image: url(images/LOOP-pictures/LOOP_animation.gif);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: contain;
 		width: 20vw;
 		height: 20vw;
-	
-		position: absolute;
-		border-radius: 50%;
-		transform: translateY(-50%);
-	
-		animation-name: loop_logo;
-		animation-duration: 5s;
-		animation-iteration-count: 1;
-		animation-fill-mode: both;
+		margin-left: 35vw;
 	}
+
+	nav{
+		padding: .5% 7%;
+		top: 88.5%;
+		height: 5vw;
+	}
+
+	.inline li{
+		display: inline-block;
+	}
+
+	.looplink{
+		transform: translateX(380px);
+	}
+
+	.menu{
+		padding: 10px;
+	}
+
+	.dropdown{
+		display: none;
+		position: absolute;
+		background-color: rgb(31, 134, 0);
+		transform: translateX(-40%);
+	}
+	
+	.dropdown li{
+		text-align: center;
+	}
+	.dropdown li a{
+		padding: 10px 20px;
+		display: block;
+	}
+	
+	nav ul li:hover ul{
+		display: block;
+	}
+
+
+	.left{
+		margin-left: 15vw;
+	}
+
+	.flex p{
+		font-size: 15px;
+	}
+	
 }
 
 @media screen and (min-width:1024px){
