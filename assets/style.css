@@ -223,10 +223,8 @@ footer article{
 
 	body,
 	header,
-	main, section, article,
-	footer {
+	main, section, article, footer {
 		width: 100vw;
-
 	}
 
 	p, a {
@@ -311,9 +309,7 @@ section article {
 
 /* SECTION 3 */
 
-.section3 {
-	height: 170vh;
-}
+
 .section3 article{
 
 }
@@ -364,7 +360,6 @@ section article {
 /* FOOTER */
 footer {
 	padding: 3.5% 7%;
-	height: 60vh;
 	margin-top: 7%;
 }
 
@@ -379,6 +374,30 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	
+}
+
+
+
+.icon{
+	width: 20px;
+	display: block;
+	margin: 15px 0 0 45%;
+}
+
+.icon1{
+	margin-top: 15px;
+	width: 50px;
+}
+
+article + article{
+	margin-top: 20px;
+}
+
+article .button{
+	color: black;
+	background-color: rgba(	150, 193, 31);
+	border-radius: 5px;
+	padding: 5px 10px;
 }
 
 }
@@ -586,7 +605,7 @@ main{
 }
 
 section{
-	height: 40vw;
+	
 	box-shadow: 3px 3px 3px gray;
 }
 
@@ -602,9 +621,9 @@ section article{
 }
 /* SECTION 2 */
 .section2 img{
-	height: 40vw;
-	width: 45vw;
+	width: 50vw;
 }
+
 /* SECTION 3 */
 .section3{
 	height: 60vw;
