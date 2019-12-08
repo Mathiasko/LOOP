@@ -269,17 +269,14 @@ nav {
 	color: black;
 	background-color: rgba(	150, 193, 31);
 	border-radius: 5px;
-	padding: 5px 10px;
+	padding: 8px 10px;
 }
 
 .looplink a{
 	margin-bottom: 5px;
 	font-size: 10px;
 }
-.inline{
-	display: flex;
-}
-}
+
 
 
 .dropdown{
@@ -315,7 +312,7 @@ section {
 }
 section img {
 	height: auto;
-	width: 100%;
+	width: 100vw;
 }
 section article {
 	width: 100%;
