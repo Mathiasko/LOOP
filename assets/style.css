@@ -263,10 +263,6 @@ nav {
     height: 11vw;
 }
 
-.inline li{
-	display: inline-block;
-}
-
 .looplink{
 	transform: translateX(47vw);
 
@@ -288,6 +284,7 @@ nav {
 	position: absolute;
 	background-color: #96C11F;
 	transform: translateX(-40%);
+	z-index: 1;
 }
 
 nav ul li:hover ul{
@@ -318,7 +315,7 @@ section img {
 	width: 100vw;
 }
 section article {
-	width: 100vw;
+	width: 100%;
 }
 
 /* SECTION 1 */
@@ -343,7 +340,7 @@ section article {
 	width:100%;
 	display: flex;
 	flex-wrap: wrap;
-	
+	margin-top: 10px;
 }
 
 .flex div {
