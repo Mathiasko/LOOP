@@ -269,12 +269,11 @@ nav {
 	color: black;
 	background-color: rgba(	150, 193, 31);
 	border-radius: 5px;
-	padding: 8px 10px;
 }
 
 .looplink a{
-	margin-bottom: 5px;
 	font-size: 10px;
+	padding: 7px 12px;
 }
 
 
@@ -283,7 +282,7 @@ nav {
 	display: none;
 	position: absolute;
 	background-color: #96C11F;
-	transform: translateX(-40%);
+	transform: translateX(-30%);
 	z-index: 1;
 }
 
@@ -318,6 +317,11 @@ section article {
 	width: 100%;
 }
 
+.inline{
+	display: flex;
+	margin: 3%;
+}
+
 /* SECTION 1 */
 
 /* SECTION 2 */
@@ -335,7 +339,6 @@ section article {
 	width:100%;
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 10px;
 }
 
 .flex div {
@@ -460,12 +463,13 @@ article .button{
 		color: black;
 		background-color: rgba(	150, 193, 31);
 		border-radius: 5px;
-		padding: 8px 10px;
+
 	}
 
 	.looplink a{
 		margin-bottom: 5px;
 		font-size: 15px;
+		padding: 8px 10px;
 	}
 
 
@@ -475,6 +479,7 @@ article .button{
 		position: absolute;
 		background-color: #96C11F;
 		transform: translateX(-40%);
+		z-index: 1;
 	}
 	
 	nav ul li:hover ul{
