@@ -282,20 +282,28 @@ nav {
 	display: none;
 	position: absolute;
 	background-color: #96C11F;
-	transform: translateX(-30%);
+	transform: translateX(-20%);
 	z-index: 1;
+	border-style: groove;
+}
+
+.dropdown li{
+	margin-top: 10px;
+}
+
+.dropdown li a{
+	padding: 5px;
+	display: inline-block;
+	width: 250px;
+}
+.dropdown li :hover{
+	background-color: rgb(108, 136, 26);
 }
 
 nav ul li:hover ul{
 	display: block;
 	border-radius: 10px;
 }
-
-
-.left{
-	margin-left: 5vw;
-}
-
 
 
 /* MAIN */
@@ -449,7 +457,7 @@ article .button{
 
 	nav{
 		padding: .5% 7%;
-		top: 88.5%;
+		top: 102%;
 		height: 6vw;
 	}
 
@@ -478,13 +486,22 @@ article .button{
 		display: none;
 		position: absolute;
 		background-color: #96C11F;
-		transform: translateX(-40%);
+		transform: translateX(-20%);
 		z-index: 1;
+		border-style: groove;
 	}
 	
-	nav ul li:hover ul{
-		display: block;
-		border-radius: 10px;
+	.dropdown li{
+		margin-top: 10px;
+	}
+	
+	.dropdown li a{
+		padding: 5px;
+		display: inline-block;
+		width: 250px;
+	}
+	.dropdown li :hover{
+		background-color: rgb(108, 136, 26);
 	}
 
 
