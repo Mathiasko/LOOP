@@ -397,7 +397,15 @@ footer {
 	header{
 		height: 30vh;
 	}
-	main{width: 100%;}
+
+	p {
+		font-size: 1.8vw;
+		line-height: 1.8;
+	}
+
+	main{
+		width: 100%;
+	}
 	.logo{
 		width: 20vw;
 		height: 20vw;
@@ -421,6 +429,11 @@ footer {
 	.menu{
 		padding: 10px;
 	}
+
+	.section5 article{
+		margin-top: 5vw;
+	}
+	
 
 	.dropdown{
 		display: none;
@@ -453,7 +466,7 @@ footer {
 	}
 
 	.padding{
-		width: 50vw;
+		width: 100vw;
 	}
 
 	.green img{
@@ -475,6 +488,26 @@ footer {
 
 	.c3{
 		width: 100%;
+	}
+
+	/*Section 4*/
+	.section4 .green{
+		width: 124vw;
+		height: 50vw;
+	}
+	/*Section 5*/
+
+
+	/*Section 6*/
+	.section6 article {
+		width: 60vw;
+		height: 40vw;
+	}
+
+	/*Footer*/
+	footer article {
+		width: 15%;
+		margin: 0 auto;
 	}
 
 }
@@ -550,6 +583,8 @@ section article{
 	height: 35vw;
 }
 /* SECTION 4 */
+
+
 
 /* SECTION 5 */
 	
