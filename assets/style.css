@@ -22,7 +22,7 @@ h2{
 
 p{
 	font-family: 'Raleway', sans-serif;
-	font-size: 1.1vw;
+	font-size: 1.2vw;
 	line-height: 1.6;
 }
 
@@ -39,8 +39,7 @@ h3 + p + h3{
 }
 
 p + a{
-	display: inline-block;
-    margin-top: 9%;
+	display: inline-block;	
 }
 
 ul {
@@ -195,6 +194,10 @@ section article{
 	padding: 2.5% 5%;
 }
 
+.section5 article{
+	margin-top: 7vw;
+}
+
 .section5 a:hover{
 	background-color: rgba(	150, 193, 31, .7); 
 }
@@ -264,7 +267,7 @@ nav a {
 .logo {
 	width: 30vw;
 	height: 30vw;
-	transform: translate(100% 0);
+	margin-left: 28%;
 
 }
 
@@ -482,12 +485,12 @@ footer {
 /* HEADER */
 
 header{
-	height: 65vh;
+	height: 35vw;
 }
 
 nav{
 	padding: .5% 7%;
-	top: 88.5%;
+	top: 35vw;
 }
 
 nav a{
@@ -500,7 +503,6 @@ nav a:hover{
 }
 
 .logo{
-
 	transform: translateY(-40%);
 }
 
@@ -519,7 +521,7 @@ main{
 }
 
 section{
-	height: 65vh;
+	height: 40vw;
 	box-shadow: 3px 3px 3px gray;
 }
 
@@ -529,23 +531,23 @@ section article{
 
 /* SECTION 1 */
 .section1 img{
-	height: 65vh;
-	width: 45vw;
+	height: 40vw;
+	width: 40vw;
 
 }
 /* SECTION 2 */
 .section2 img{
-	height: 65vh;
+	height: 40vw;
 	width: 45vw;
 }
 /* SECTION 3 */
 .section3{
-	height: 100vh;
+	height: 60vw;
 }
 
 .bigbanner{
 	width: 100%;
-	height: 50vh;
+	height: 35vw;
 }
 /* SECTION 4 */
 
@@ -556,7 +558,7 @@ section article{
 /* FOOTER */
 footer{
 	padding: 3.5% 7%;
-	height: 35vh;
+	height: 15vw;
 	margin-top: 7%;
 }
 
